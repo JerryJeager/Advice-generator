@@ -18,7 +18,8 @@ function displayAdvice() {
     newAdvice('https://api.adviceslip.com/advice').then((data) => {
         adviceNumber.textContent = `ADVICE #${data.slip.id}`
         adviceQuote.textContent = `"${data.slip.advice}"`
-        // console.log(data)
+        adviceQuote.style.color = 'var(--light-cyan)'
+        adviceQuote.style.fontSize = '25px'
     }).catch(err => {
         adviceNumber.textContent = ``
         adviceQuote.textContent = `${err.message} Check your internet connection`

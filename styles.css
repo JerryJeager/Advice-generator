@@ -21,7 +21,6 @@ body{
 .advice{
     margin: 7rem auto;
     width: 85%;
-    /* height: 300px; */
     border-radius: 10px;
     background-color: var(--dark-grayish-blue);
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
@@ -72,4 +71,9 @@ button img{
 button:hover{
     transition: .4s;
     box-shadow: 0 0 7px 3px hsl(150, 100%, 66%);
+}
+@media screen and (min-width: 760px){
+    .advice{
+        width: 55%;
+    }
 }
