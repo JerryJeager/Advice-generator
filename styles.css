@@ -21,10 +21,10 @@ body{
 .advice{
     margin: 7rem auto;
     width: 85%;
-    height: 300px;
+    /* height: 300px; */
     border-radius: 10px;
     background-color: var(--dark-grayish-blue);
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .advice-number{
     color: var(--neon-green);
@@ -35,6 +35,7 @@ body{
     font-size: .8rem;
 }
 .advice-quote{
+    /* padding-bottom: 1.2rem; */
     text-align: center;
     color: var(--light-cyan);
     font-weight: 800;
@@ -42,7 +43,7 @@ body{
     font-size: 25px;
 }
 .divider{
-    margin: 1.25rem auto;
+    margin: 1.5rem auto;
     display: flex;
     justify-content: center;
     width: 95%;
@@ -60,7 +61,7 @@ button{
     border: none;
     border-radius: 50%;
     margin: 0 auto;
-    transition: .4s;
+    transform: translateY(50px);
 
 }
 button img{
@@ -69,5 +70,6 @@ button img{
     border-radius: 5px;
 }
 button:hover{
+    transition: .4s;
     box-shadow: 0 0 7px 3px hsl(150, 100%, 66%);
 }
