@@ -1,4 +1,4 @@
-const adviceNumber = document.querySelector('.advice-number').querySelector('p')
+const adviceNumber = document.querySelector('.advice-number').querySelector('h2')
 const adviceQuote = document.querySelector('.advice-quote').querySelector('p')
 const changeAdviceBtn = document.querySelector('button')
 

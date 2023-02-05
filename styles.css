@@ -34,7 +34,6 @@ body{
     font-size: .8rem;
 }
 .advice-quote{
-    /* padding-bottom: 1.2rem; */
     text-align: center;
     color: var(--light-cyan);
     font-weight: 800;
@@ -61,7 +60,6 @@ button{
     border-radius: 50%;
     margin: 0 auto;
     transform: translateY(50px);
-
 }
 button img{
     width: 20px;
